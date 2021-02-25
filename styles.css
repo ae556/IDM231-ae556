@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    height:100%;
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Button{
+    width: 72px;
+    height: 72px;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    outline:none;
+    opacity:.7;
+}
+.Button:hover{
+    opacity:1
+}
+
+#ebo{
+    background-image: url(images/ebo.png);
+}
+#aoba{
+    background-image: url(images/aoba.png);
+}
+#nina{
+    background-image: url(images/nina.png);
+}
+#cosmos{
+    background-image: url(images/cosmos.png);
+}
+
+#mac{
+    background-image: url(images/mac.png);
+}
+#steve{ 
+    background-image: url(images/steve.png);
+}
+#kali{
+    background-image: url(images/kali.png);
+}
+#kaya{
+    background-image: url(images/kaya.png);
+}
+#otis{
+    background-image: url(images/otis.png);
+}
+#britell{
+    background-image: url(images/britell.png);
+}
+#joni{
+    background-image: url(images/joni.png);
+}
+#piero{
+    background-image: url(images/piero.png);
+}
