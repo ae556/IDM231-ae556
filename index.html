@@ -8,12 +8,35 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
 </head>
-<body class="background">
-    <form class="contor1">
-        <input type="text" placeholder="MM/DD/YY"
-        name="Birthday" required>
+<body>
+
     </form>
-    <div>
+    <h1><span>MUSIC</span> DISCOVERY</h1>
+        <div class="form">
+            <form class="control">
+                <input id='bday' class="input" type="date" placeholder="MM/DD/YY" name="Birthday" required>
+            </form>
+            <button id="userSubmit">Submit</button>
+        </div>
+<!-- Modals (custom)-->
+    <div id="modal" class="modal" hidden>
+        <div class="modal-body">
+            <div class="modal-content"> 
+                <div>
+                    <img id="zDisplayImg" src="images/kaya.png" alt="Okay Kaya">
+                </div>
+                <p><span id="zTitle">Title</span>, <span id="zDateRange">Date Range</span></p>
+                <div id="zMoreInfo">
+                    <p>Object description goes here</p>
+                </div>
+                <button id="btn-modal-close" class="toggle-modal">Close</button>
+            </div>
+        </div>
+        <div class="blanket"></div>
+    </div>
+
+    
+    <div class="Buttons">
         <button class="Button" id="ebo"></button>
         <button class="Button" id="aoba"></button>
         <button class="Button" id="nina"></button>
@@ -27,5 +50,6 @@
         <button class="Button" id="joni"></button>
         <button class="Button" id="piero"></button>
     </div>
+<script src="main.js"></script>
 </body>
 </html>
